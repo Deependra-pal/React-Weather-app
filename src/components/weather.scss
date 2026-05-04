@@ -1,0 +1,53 @@
+.weather-card {
+  .city {
+    font-size: 18px;
+    font-weight: 600;
+
+    span {
+      color: #2563eb;
+    }
+  }
+
+  .temp {
+    font-size: 64px;
+    color: #2563eb;
+    margin: 10px 0;
+  }
+
+  .condition {
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      text-align: center;
+
+      p {
+        color: #666;
+        font-size: 14px;
+      }
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+/* responsive */
+@media (max-width: 480px) {
+  .weather-card .details {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

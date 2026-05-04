@@ -1,0 +1,46 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full app height */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Body base */
+body {
+  font-family: Arial, sans-serif;
+  background: #cbd5e1;
+  
+}
+
+/* App center layout */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+/* Main card wrapper */
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: #e2e8f0;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .card {
+    padding: 15px;
+  }
+}
