@@ -1,16 +1,82 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather App built using React that provides real-time weather data and a 5-day forecast using the OpenWeather API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉  https://react-weather-app-nine-roan.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 Search weather by city name
+* 🌡️ Real-time temperature display
+* ☁️ Weather condition (Cloudy, Rain, etc.)
+* 💧 Humidity, Wind Speed, Feels Like
+* 📅 5-Day Weather Forecast
+* 📱 Fully Responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6+)
+* SCSS
+* OpenWeather API
+* Vercel (Deployment)
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ ├── SearchBox.jsx
+│ ├── WeatherCard.jsx
+│ ├── Forecast.jsx
+│
+├── services/
+│ └── api.js
+│
+├── App.jsx
+└── main.jsx
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+VITE_API_KEY=your_api_key_here
+
+---
+
+## ⚙️ Installation & Setup
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
+
+---
+
+## 📸 Screenshots
+
+ ./image.png
+
+---
+
+## 🙌 Author
+
+* Your Name
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
