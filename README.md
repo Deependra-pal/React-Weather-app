@@ -66,7 +66,7 @@ npm run dev
 
 ## 📸 Screenshots
 
- ./image.png
+ ![Weather App Preview](./image.png)
 
 ---
 
