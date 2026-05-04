@@ -1,7 +1,7 @@
 import "./forecast.scss";
 
 function Forecast({ data }) {
-  console.log(data);
+ 
 
   // ✅ Conditional rendering
 
