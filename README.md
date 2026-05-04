@@ -72,7 +72,7 @@ npm run dev
 
 ## 🙌 Author
 
-* Your Name
+* Deependra Pal
 
 ---
 
